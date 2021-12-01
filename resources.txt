@@ -1,0 +1,5 @@
+font ideas #LOGO:
+  PT mono
+  SPECIAL ELITE
+  MONTSERRAT 600 500
+  ROBOTO MONO 700
