@@ -5,6 +5,10 @@ body {
 
 header {
   display: flex;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgba(221, 214, 231, 0.397);
   justify-content: space-between;
   padding: 15px 60px;
   align-items: center;
@@ -14,7 +18,7 @@ header {
   padding: 10px;
   font-family: "Roboto Mono", sans-serif;
   font-size: 50px;
-  color: rgb(245, 243, 160);
+  color: rgb(237, 224, 241);
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0)
@@ -24,11 +28,17 @@ header ul {
   display: flex;
   justify-content: flex-end;
   width: 250px;
-  list-style: none;
+  list-style: none;;
   margin: 10px;
 }
 
 header li {
   margin: 14px;
   padding: 8px;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(248, 233, 250);
+  font-size: 20px;
 }
