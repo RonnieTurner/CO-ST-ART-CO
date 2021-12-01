@@ -1,5 +1,6 @@
 #hero {
-  height: 800px;
+  height: 1200px;
+  width: 100%;
   background-image: url("/images/Start-Recap.jpeg");
   background-position: center;
   background-size: cover;
