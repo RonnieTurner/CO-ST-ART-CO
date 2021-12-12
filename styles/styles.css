@@ -7,28 +7,29 @@
   background-attachment: scroll;
 }
 
-#hero p {
-  font-size: x-large;
-}
-
-#hero li {
-  font-size: xx-large;
-}
-
 #hero-content {
-  width: 900px;
-  height: 1000px;
-  background-color: rgba(216, 205, 216, 0.363);
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  display: flex;
+  background-color: rgba(219, 183, 219, 0.363);
   border-radius: 8px;
   text-align: center;
   padding: 50px 0;
   margin: 0 auto;
-  position: relative;
+  /* position: relative; */
   border-radius: 8px;
   /* top: 200px; */
 }
 
+#hero-content img {
+  width: 800px;
+  box-shadow: 2px 2px 8px rgb(68, 67, 67);
+}
+
+#hero-card {
+  background-color: rgb(174, 206, 207);
+  margin: 0 3rem;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgb(68, 67, 67);
+}
 #hero-content h1{
   color: white;
   text-transform: uppercase;
@@ -58,6 +59,8 @@
 #hero-content a:hover {
   background-color: rgb(131, 112, 131);
 }
+
+
 
 #hero-content ul {
   list-style: none;
