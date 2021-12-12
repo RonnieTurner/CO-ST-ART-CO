@@ -9,8 +9,7 @@
 
 #hero-content {
   display: flex;
-  background-color: rgba(219, 183, 219, 0.363);
-  border-radius: 8px;
+  background-color: rgb(241, 239, 241);
   text-align: center;
   padding: 50px 0;
   margin: 0 auto;
@@ -21,14 +20,41 @@
 
 #hero-content img {
   width: 800px;
+  margin-left: 2rem;
   box-shadow: 2px 2px 8px rgb(68, 67, 67);
 }
 
 #hero-card {
-  background-color: rgb(174, 206, 207);
-  margin: 0 3rem;
-  border-radius: 6px;
-  box-shadow: 2px 2px 8px rgb(68, 67, 67);
+  margin: 4rem 0;
+  /* background-color: rgba(225, 226, 216, 0.904); */
+}
+
+#hero-card h2 {
+  /* padding: 0 0 3rem 0; */
+  font-family: 'Bungee', sans-serif;
+  font-size: 2rem;
+  color:rgb(47, 47, 48)
+}
+
+#hero-card p {
+  padding: 3.5rem 7rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: .5rem;
+}
+
+#hero-card li {
+  background-color: rgba(68, 67, 67, 0.521);
+  color: rgb(241, 239, 241);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgb(107, 105, 107);
+  padding: 1.5;
+  margin: 0 4rem 0 4rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 4px rgb(68, 67, 67);
+  
 }
 #hero-content h1{
   color: white;
@@ -44,23 +70,6 @@
   font-weight: 300;
   margin-bottom: 2rem;
 }
-
-#hero-content a {
-  text-decoration: none;
-  background-color: rgba(123, 255, 0, 0.459);
-  padding: 12px 24px;
-  color: black;
-  font-size: 24px;
-  font-weight: bold;
-  border-radius: 8px;
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
-}
-
-#hero-content a:hover {
-  background-color: rgb(131, 112, 131);
-}
-
-
 
 #hero-content ul {
   list-style: none;

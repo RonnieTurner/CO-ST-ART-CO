@@ -38,6 +38,7 @@ header li {
 }
 
 header li a {
+  font-family: 'Bungee';
   text-decoration: none;
   color: rgb(248, 233, 250);
   text-shadow: 1px 1px 2px black;
