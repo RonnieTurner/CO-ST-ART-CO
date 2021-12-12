@@ -33,7 +33,7 @@
   /* padding: 0 0 3rem 0; */
   font-family: 'Bungee', sans-serif;
   font-size: 2rem;
-  color:rgb(47, 47, 48)
+  color: var(--color-grey-600);
 }
 
 #hero-card p {
