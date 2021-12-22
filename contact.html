@@ -5,12 +5,33 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Mono:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles/shared.css" />
+  <link rel="stylesheet" href="/styles/contact.css" />
   <title>Contact Us</title>
 </head>
 
 <body>
-  <header>
-    <h1>Drop a line</h1>
+  <header id="main-header">
+    <div id="page-logo"><a href="index.html">CO ST ART CO</a>
+    </div>
+    <nav>
+      <ul>
+        <!-- <li><a href="/index.html">Home</a></li> -->
+        <!-- <li><a href="/about.html">About</a></li> -->
+        <li><a href="/commision.html">Commision</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="/donate.html">Donate</a></li>
+      </ul>
+    </nav>
+    <a href="#side-drawer" class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
   </header>
   <main>
     <form>
@@ -23,6 +44,14 @@
           <option value="collaborate">Collaborate</option>
           <option value="consultation">Consultation</option>
         </select>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required placeholder="first last">
+          </li>
+        </ul>
       </section>
     </form>
   </main>
