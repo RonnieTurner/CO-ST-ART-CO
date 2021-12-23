@@ -39,6 +39,10 @@ select {
   color: rgb(61, 58, 58);
 }
 
+textarea {
+  resize: vertical;
+}
+
 #services {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -60,3 +64,9 @@ li {
 select:focus, input:focus {
   background-color: rgba(241, 206, 241, 0.603);
 }
+
+.form-control-inline {
+  display: flex;
+  width: auto;
+}
+
