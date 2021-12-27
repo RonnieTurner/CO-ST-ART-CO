@@ -3,14 +3,11 @@ html {
   --color-grey-400: rgb(134, 134, 134);
   --color-grey-600: rgb(58, 58, 58);
   --color-grey-900: rgb(41, 41, 41);
-  /* margin: 50px; */
 }
 
 body {
   font-family: "Quicksand", sans-serif;
   background-color: var(--color-grey-100);
-  
-
 }
 
 header {
@@ -112,5 +109,12 @@ footer img {
 
   .menu-btn {
     display: flex;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  img {
+    opacity: 75%;
+    transition: opacity .5s ease-in-out;
   }
 }
