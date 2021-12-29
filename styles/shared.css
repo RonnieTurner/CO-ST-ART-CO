@@ -7,7 +7,7 @@ html {
 
 body {
   font-family: "Quicksand", sans-serif;
-  background-color: var(--color-grey-100);
+  background: linear-gradient(180deg, var(--color-grey-400), rgb(104, 103, 103));
 }
 
 header {
@@ -16,7 +16,8 @@ header {
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: var(--color-grey-100);
+  background-color: var(--color-grey-400);
+  /* background-color: rgb(190, 162, 3); */
   justify-content: space-between;
   padding: 15px 60px;
   align-items: center;
@@ -62,7 +63,8 @@ header li a {
 }
 
 header a:hover {
-  background-color: rgba(80, 67, 83, 0.336);
+  /* background-color: rgba(80, 67, 83, 0.336); */
+  background-color: rgba(216, 160, 20, 0.712);
 }
 
 .menu-btn {
